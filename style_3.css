@@ -1,38 +1,103 @@
-html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="css/style_1.css"/>
-	</head>
-	<body>
-		<div class="con">
-			<div class="re">
-			    <h1>简历</h1>
-		    </div>
-		    <div class="informa">
-                <div class="inf1">
-	                <div class="hh1"><h2>基本信息</h2></div>	   
-	                <div class="pp1"><p><span>姓名</span>&nbsp&nbsp张三&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span>性别</span>&nbsp&nbsp男&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span>应聘职位</span>&nbsp&nbspWeb前端工程师</p></div>
-	            </div>
-	
-	            <div class="inf2">
-     	            <div class="hh2"><h2>联系方式</h2></div>
-	                <div class="pp2"><p><span>手机</span>&nbsp&nbsp12312341234&nbsp&nbsp&nbsp&nbsp&nbsp<span>Email</span>&nbsp&nbsp<a href="joinefe@baidu.com">joinefe@baidu.com</a>&nbsp&nbsp&nbsp&nbsp&nbsp<span>个人主页</span>&nbsp&nbsp<a href="Github">Github</a></p></div>
-	            </div>	
-	            <div class="inf3">
-	                <div class="hh3"><h2>能力描述</h2></div>
-	                <div class="pp3"><p><span>技术能力</span></br> 熟练掌握HTML，CSS，JavaScript</p>
-	                <p><span>综合能力</span></br>良好的沟通，主动积极，努力勤奋</p></div>
-	            </div>
-	            <div class="inf4">
-	                <div class="hh4"><h2>教育经历</h2></div>
-	                <div class="pp4"><p><span>本科</span></br>百度前端技术学院小微学院</p>
-	                <p><span>研究生</span></br>百度前端技术学院大斌学院</p></div>
-	            </div>
-	            <div class="inf5">
-	                <div class="hh5"><h2>项目经历</h2></div>
-	                <div class="pp5"><p><span>小度小度</span></br>作为前端工程师角色参与了ABC组件的开发</p>
-	                <p><span>SAN Doc</span></br>作为文档工程师参与了SAN Doc编写</p></div>
-	            </div>
-	        </div>
-	    </div>
-	</body>
-</html>
+span {
+	font-weight: bold;
+}
+.con {
+	margin-left: 15px;
+	border-style: solid;
+	border-color: #F5F5F5;
+
+}
+.re {
+	background-color: #708090;
+	color: white;
+	font-size: 20px;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+h1 {
+	margin: 0;
+	font-size: 50px;
+}
+h2 {
+	background-color: #C0C0C0;
+
+	padding: 90px;
+	font-size: 20px;
+	margin: 0;
+
+}
+.hh1{
+	display: inline-block;
+}
+.pp1 {
+	display: inline-block;
+    margin-left: 20px;
+
+}
+.inf1 {
+		border-style: solid;
+	    border-bottom-color: #F5F5F5;
+	    border-top: none;
+	    border-right: none;
+	    border-left: none;
+
+}
+.hh2{
+	display: inline-block;
+
+}
+.pp2 {
+    display: inline-block;
+    margin-left: 20px;
+}
+.inf2 {
+		border-style: solid;
+	    border-bottom-color: #F5F5F5;
+	    border-top: none;
+	    border-right: none;
+	    border-left: none;
+}
+.hh3{
+    display: inline-block;
+}
+.pp3 {
+	margin-left: 20px;
+    display: inline-block;
+}
+.inf3 {
+		border-style: solid;
+	    border-bottom-color: #F5F5F5;
+	    border-top: none;
+	    border-right: none;
+	    border-left: none;
+}
+.hh4{
+    display: inline-block;
+}
+.pp4 {
+	display: inline-block;
+	margin-left: 20px;
+}
+.inf4 {
+		border-style: solid;
+	    border-bottom-color: #F5F5F5;
+	    border-top: none;
+	    border-right: none;
+	    border-left: none;
+}
+.hh5{
+    display: inline-block;
+}
+.pp5 {
+    margin-left: 20px;
+    display: inline-block;
+}
+.inf5 {
+		border-style: solid;
+	    border-bottom-color: #F5F5F5;
+	    border-top: none;
+	    border-right: none;
+	    border-left: none;
+}
+
