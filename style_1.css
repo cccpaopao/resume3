@@ -1,0 +1,9 @@
+span{
+	font-weight: bold;
+}
+.con{
+	border-style: solid;
+	border-width: 1px;
+	padding-left: 10px;
+	width: 750px;
+}
