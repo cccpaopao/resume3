@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>静态页面布局</title>
+  <meta charset="utf-8">
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.head{
+			background-color: #505050;
+			height: 55px;
+		}
+		.head-m{
+			width: 960px;
+			margin: 0 auto;
+			color: #E8E8E8;
+			position: relative;
+		}
+		.head1{
+			position: absolute;
+			font-size: 17px;
+			line-height: 55px;
+		}
+		.head2{
+			position: absolute;
+			font-size: 14px;
+			top: 0;
+			right: 0;
+		}
+		.Banner{
+			background-color: #6C0;
+			height: 200px;
+			position: relative;
+		}
+		span{
+			border: 1px solid #404040;
+			padding: 6px;
+			background-color: white;
+			opacity: 0.65;
+		}
+		.banner .ho{
+			padding-top: 18px;
+			opacity: 0.8;
+		}
+		.banner{
+			position: absolute;
+			top: 165px;
+			right: 165px;
+		}
+		.nav{
+			height: 50px;
+		}
+		.left,.right{
+			
+			height: 50px;
+			border-bottom: 1px solid #C8C8C8;
+			display: inline-block;
+		}
+		.left{
+			float: left;
+			width: 200px;
+		}
+		.right{
+			float: right;
+			width: 856px;
+		}
+		ul{
+			margin-left: 200px;
+			width: 293px;
+			margin-right: 0;
+		}
+		li{
+			display: inline-block;
+			padding:0 20px;
+			margin-top: 5px;
+			line-height: 44px;
+			border: 1px solid #C8C8C8;
+			border-top-right-radius: 25%;
+			border-top-left-radius: 25%;
+			background-color: #F0F0F0;
+			border-left: none;
+		}
+		.ho2{
+			border-bottom: none;
+			border-left: 1px solid #C8C8C8;
+			background-color: white;
+		}
+		.content{
+			margin: 10px 200px;
+			clear: both;
+		}
+		.onerow{
+			display: flex;
+		}
+		.c1,.c2,.c3{
+			flex: 1;
+			border: 1px solid #C8C8C8;
+			padding: 100px 85px;
+			margin-right: 10px;
+			text-align:center; 
+ 		}
+ 		.c1,.c2{
+ 			flex: 1.3;
+ 		}
+ 		.tworow{
+ 			margin: 10px 0;
+ 			display: flex;
+ 		}
+ 		.c4,.c5,.c6,.c7{
+			flex: 1;
+			border: 1px solid #C8C8C8;
+			padding: 70px 70px;
+			margin-right: 10px;
+			text-align:center; 
+ 		}
+ 		.threerow{
+ 			margin: 10px 0;
+ 			display: flex;
+ 		}
+ 		.c8,.c9,.c10{
+			flex: 1;
+			border: 1px solid #C8C8C8;
+			padding: 100px 85px;
+			margin-right: 10px;
+			text-align:center; 
+ 		}
+ 		.footer{
+ 			background-color: #787878;
+ 			height: 80px;
+ 			text-align:center;
+ 		}
+ 		p{
+ 			position: relative;
+ 			top: 10px;
+ 			color: #E0E0E0;
+ 		}
+	</style>
+</head>
+<body>
+	<div class="head">
+		<div class="head-m">
+		    <div class="head1">Logo</div>
+		    <div class="head2">Github Regidter Login</div>
+		</div>
+	</div>
+	<div class="Banner">
+		<div class="banner">
+			<span>1</span>
+			<span class="ho">2</span>
+			<span>3</span>
+			<span>4</span>
+		</div>
+	</div>
+	<div class="nav">
+		<div class="left"></div>
+		<div class="right"></div>
+		<ul>
+			<li class="ho2">HOME</li><li>PROFILE</li><Li>ABOUT</Li>
+		</ul>
+	</div>
+	<div class="content">
+		<div class="onerow">
+			<div class="c1">This is Content 1</div>
+			<div class="c2">MaybeContent 2</div>
+			<div class="c3">Content 3</div>
+		</div>
+		<div class="tworow">
+			<div class="c4">Content 4</div>
+			<div class="c5">Content 5</div>
+			<div class="c6">Content 6</div>
+			<div class="c7">Content 7</div>
+		</div>
+		<div class="threerow">
+			<div class="c8">Content 8</div>
+			<div class="c9">Content 9</div>
+			<div class="c10">Content 10</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p>2018 ife.baidu.com</p>
+	</div>
+
+</body>
+</html>
